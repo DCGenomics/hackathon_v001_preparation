@@ -1,0 +1,65 @@
+`	Schedule for January, 2015  NCBI/ADDS Hackathon!
+
+Location, NIH campus, Porter Building (35A), Rooms 640/630/620
+
+Please note that this is a dynamic document, and therefore subject to change at the discretion of the instructors.  
+
+Italicized text: Optional Items
+
+Monday,  January 5th -- Room 640
+9:00-9:30: Introductions, Administrative Announcements and Crowdsourcing as Education; The Plan
+Discussion of Roles
+Sysadmin
+Decides where data and tools go, and implements git for versioning.
+Deals (in conjunction with technical assistance) with any technical issues
+Metadata
+Data Acquisition
+Data Normalization
+Downstream Analysis 
+(Statistics)
+Documentation 
+Code and text summaries
+Discussion of Output
+Github
+PlosOne
+9:30 - 9:45: Technical considerations when using the Amazon cloud for high throughput data analysis, and some introductions.  
+9:45 - 10:00:  Making pipelines public -- Github, bitbucket and coderscrowd
+10:00 - 10:15: Role assignments in teams
+10:15 - 12:00: Sysadmins and Data Acquisition get data
+SRA toolkit representatives available to discuss the SRA-SDK 
+Everyone else work on first sketch of plan (one page google doc)
+12:00 - 1:00: Working lunch (catered lunch opt-in 1)
+1:00 - 1:30: Sharing of initial searches and discussion between groups
+1:30 - 5:00: Pipeline building <script building>
+BLAST and SRA representatives present to help with pipelines
+HTseq/Apache Spark help will also be available
+6:00 - 7:30: DINNER (on your own or with group members)
+7:30 - 8:30: Implement any remaining code/start pipelines (remote is an option) <script building>
+Tuesday, January 6th -- Room 630/620
+9:00 - 9:30: Snow delay
+9:30 - 9:15: Presentation: Integrating [NCBI] tools and user-generated pipelines with Apache Spark 
+9:45 - 12:00: Data cleanup, code fixing, and presentation generation
+12:45 - 1:45: Working lunch (catered lunch opt-in 2)
+1:45 - 2:15:  Each group presents five slides; opportunity for exchange of ideas (and personnel if necessary)
+2:15 - 6:00: Pipeline fixing and implementing suggestions from other group; more data runs
+4:30, writer break off 1
+6:30 - 8:30: GROUP DINNER (Louisiana Kitchen); opportunity for feedback on organizational structure and future projects
+
+
+Wednesday, January 7th -- Room 630/620
+8:00 - 9:00:  Breakfast on campus (38A cafeteria); more opportunity for feedback on organizational structure and future projects
+9:00 - 10:20: Quick tour of NCBI
+Tours of data center
+Meeting with David Lipman
+10:20 - 12:00:  Finishing pipelines 
+12:00 - 1:00: Working lunch (catered lunch opt-in 3)
+1:00 - 1:10: Potential for transferring data to helix/biowulf
+1:10 - 3:00: Writers break off for writers group
+Editorial representative from NIH library will be there to assist.  
+Everyone else documents code and writes READMEs
+Pipeline testing!!  
+Presentation generation
+Upload code to Github and/or Bitbucket and/or Coderscrowd !
+4:10 - 4:15: Marketing, community interaction, and longevity of code 
+Who is going to deal with future pull requests?
+4:15 - 4:45: Final Presentations (3 slides per group) 
