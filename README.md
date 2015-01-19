@@ -7,4 +7,4 @@ Item 1:  Initial Scientific Goals of the Hackathon.
 Item 2:  Daily Schedule and Organization for Hackathon
   + We thought this might be a bit too structured for a hackathon, but it was very popular.  
   
-  
+More material (surveys, logistcal things, etc) may be added due to perceived demand.    
