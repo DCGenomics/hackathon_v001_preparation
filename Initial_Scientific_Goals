@@ -1,0 +1,87 @@
+Topics/Datasets
+
+RNA-seq - Melanoma - Variant Calling Pipeline from RNAseq to differentiate germline and somatic mutations from RNAediting (HTseq with Apache Spark).
+  Sample datasets
+    PRJNA264334
+    PRJNA217909
+    PRJNA202398
+    PRJNA133097 
+Comparison with known germline variants (1000 genomes [using the dbGaP version] and ClinVar)
+Isoform specificity based on mapping to 454 data.  
+Software available.  
+Correlation with RNA structure prediction
+Comparison with NCI-60 cell line variants.  
+Determination of mosaicism. 
+Germ-line vs intratumor 
+Detection of systematic quality score variants indicating RNA editing with Illumina and Pacbio reads
+Correlation with RNA structure prediction
+Super bonus round! -- fix HTseq annotation of tiny exons in UTRs  
+
+Epigenomics  -- Mouse Embryonic Fibroblasts and ENCODE
+  Sample datasets
+    http://www.ncbi.nlm.nih.gov/bioproject/268980
+    http://www.ncbi.nlm.nih.gov/bioproject/50617
+Call activation/inhibition peaks
+From a normalization across many datasets from different labs
+Look for enhancers
+Look for SNPs in their regions
+Active vs Inactive
+Compare with RNA-seq datasets
+Methylation of CpG islands
+(Optional project 1) Analysis of occupancy of RNA-Polymerase IIPhosphorylated Serine 5 vs. Serine 2
+Write a python code for meta-gene or uni-gene model
+Analysis on Initiation vs. elongation vs. pausing
+(Optional project 2) Analyzing ChIA-pet or high C results with RNA-seq experiments 
+
+Metagenomics - Detection of endogenous viruses in mammalian samples.
+e.g. ERV-K7 in 1000 Genomes
+  Example: NA12878 (GiaB)
+Detection of viruses in traditional metagenomics samples.   
+  Example sets 
+    HMP (Five tissue types)
+    SRP032345
+Comparison of BLAST, denovo assembly, and contig-BLAST
+Metavelvet/Cortex/megahit/price/pathoscope
+LATF loading
+WGS loading?
+DNAseq - (Variant sequencing/multiomics) - Neuroblastoma - tumor/normal and primary/metastatic comparisons in 
+WES data
+  Example sets
+    PRJNA76777
+Cross-compare with RNASeq for eQTLs.
+  Example sets
+    PRJNA214507
+    PRJNA205232
+    PRJNA153309
+Cross-compare with epigenetic datasets for eQTLs.
+Example sets 
+PRJNA154163
+Establishment of a trimming/masking/validation procedure for public datasets
+Examine differences between rare and common variants in this context
+Obvious variant elimination and iteration. 
+
+Personnel (Team leads)
+RNAseq - Allissa Dillman
+Epigenomics - Sijung Yun/Ian Fingerman
+Metagenomics -  David Kristensen with technical advice from Julia Oh
+Variant sequencing/multiomics - Claire Simpson 
+General hacking and cloud development - Mordy Abzug/Matt Lesko/Jesse Becker/Radhouane Aniba 
+BLAST and SRA/toolkit personnel… around at least Monday morning/afternoon.  (see daily schedule)
+
+Technical Considerations
+Github
+Docker containers?
+TBD
+Coders Crowd
+Docker Images
+Rad will help in the creation of these images if groups are interested (Evening of January 5th)
+He will need dependencies from participants
+Workflow Diagramming
+Microsoft Vizio
+Lucidchart.com
+Cloud access 
+We will distribute IPs and passwords 1/5
+Project management utilities
+Google Groups
+Trello
+Slack
